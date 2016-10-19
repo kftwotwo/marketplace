@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>PC Marketplace</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Computer parts order</h1>
+      </div>
+      <div class="row orderForm">
+        <div class="col-md-12">
+          <form>
+            <div class="nameForm">
+              <label for="name"><h2>Enter your full name</h2></label>
+              <input type="text" id="name">
+            </div>
+            <div class="addressForm">
+              <label for="address"><h2>Enter your mailing address</h2></label>
+              <input type="text" id="address">
+            </div>
+            <h2>Pick your CPU!</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cpu" value="AMD">
+                AMD
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cpu" value="Intel">
+                Intel
+              </lable>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cpu" value="None">
+                None
+              </label>
+            </div>
+
+            <h2>Pick your GPU!</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gpu" value="nVidia">
+                nVidia
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gpu" value="ATI">
+                ATI
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="gpu" value="None">
+                None
+              </label>
+            </div>
+
+            <button type="submit" class="btn">Submit Order</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 receipt">
+          <h3>Thanks for shopping with us!</h3>
+          <h4>Please make sure your order is correct:</h4>
+          <p>Name: <span class="name"></span></p>
+          <p>Address: <span class="address"></span></p>
+          <p>CPU: <span class="cpu"></span></p>
+          <p>GPU: <span class="gpu"></span></p>
+          <h3>Please come back soon!</h3>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </body>
+</html>

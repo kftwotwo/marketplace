@@ -1,0 +1,27 @@
+.receipt {
+  display: none;
+  border: 1px dashed gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background-color: white;
+}
+
+.receipt p {
+  margin-left: 60px;
+  font-family: "Typewriter", monospace;
+}
+
+.jumbotron {
+  background-image: url("http://www.pixeden.com/media/k2/galleries/220/005-wood-melamine-subttle-pattern-background-pat.jpg");
+  background-size: cover;
+  color: lightgray;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: lightgray;
+}
