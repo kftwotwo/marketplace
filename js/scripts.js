@@ -10,4 +10,9 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $("#new").click(function() {
+    $(".receipt").slideUp();
+    $(".orderForm").slideDown();
+  })
 });
